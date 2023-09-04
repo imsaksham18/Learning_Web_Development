@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>This is HTML forms tutorial</h2>
+    <form action="backend.php">
+        <div>
+            Name: <input type="text" name="myName" placeholder="Saksham Verma">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            Are you eligible: <input type="checkbox" name="myEligiblity" unchecked>
+        </div>
+        <br>
+        <div>
+            Write about yourself: <br><textarea name="myText" cols="50" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car: </label>
+            <select name="myCar" id="car">
+                <option value="sel">Selected Items</option>
+                <option value="ind">Indica</option>
+                <option value="sef">Swift</option>
+                <option value="aut">Aulto</option>
+                <option value="mah">Thar</option>
+                <option value="toy">Fortuner</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <strong>Gender:</strong>
+            Male<input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Others <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit now">
+            <input type="reset" value="Reset now">
+        </div>
+    </form>
+</body>
+</html>

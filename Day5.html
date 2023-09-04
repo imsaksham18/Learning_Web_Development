@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables and lists</title>
+    <style>
+        table,th,tr,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+   <ul type="disk" >  <!-- (type= disk, square, circle) -->
+        <li>this is first item of my unordered list</li>
+            
+            <ul type="circle">
+                <li>another</li>
+                <li>second one</li>
+                <li>third one</li>
+            </ul>
+
+        <li>this is second item of my unordered list</li>
+        <li>this is third item of my unordered list</li>
+    </ul>
+
+    <ol type="I"> <!--(type= I, A, a, i, 1)-->
+        <li>this is first item of my unordered list</li>
+        <li>this is second item of my unordered list</li>
+        <li>this is third item of my unordered list</li>
+    </ol>
+    
+    
+    <!-- tables -->
+    <h3>HTML Table</h3>
+    <table >
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Employee Id</th>
+                <th>Employee role</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>886644</td>
+                <td>Worker</td>
+            </tr>
+            <tr>
+                <td>Rohan</td>
+                <td>646465</td>
+                <td>HTML Expert</td>
+            </tr>
+            <tr>
+                <td>Mohan</td>
+                <td>541515</td>
+                <td>Programmer</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
